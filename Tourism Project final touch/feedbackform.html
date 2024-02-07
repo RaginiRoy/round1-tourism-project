@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form </title>
+</head>
+<style>
+            body {
+            font-family: Arial, sans-serif;
+        }
+        .feedback-form {
+            width: 300px;
+            margin: 0 auto;
+            background-color: #e68c8c;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .feedback-form h2 {
+            text-align: center;
+        }
+        .feedback-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .feedback-form input, .feedback-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #e19696;
+        }
+        .feedback-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .feedback-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+
+</style>
+<body>
+    <div class="feedback-form">
+        <h2>Feedback form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+    
+</body>
+</html>
